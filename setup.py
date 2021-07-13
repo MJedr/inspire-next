@@ -167,6 +167,7 @@ setup(
             'hep_approval = inspirehep.modules.workflows.actions.hep_approval:HEPApproval',
             'merge_approval = inspirehep.modules.workflows.actions.merge_approval:MergeApproval',
             'match_approval = inspirehep.modules.workflows.actions.match_approval:MatchApproval',
+            'auto_non_core_record = inspirehep.modules.workflows.workflows:CoreSelection'
         ],
     },
     classifiers=[
